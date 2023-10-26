@@ -1,0 +1,25 @@
+/* CSS for drop animation */
+.drop-animation {
+    animation: drop 1s ease-in-out forwards;
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  /* Add this CSS class in your Home.css file */
+.hover-animation {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-animation:hover {
+    transform: translateY(-10px); /* Adjust the value as needed */
+  }
+  
+  

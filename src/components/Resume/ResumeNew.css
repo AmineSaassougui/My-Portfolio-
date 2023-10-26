@@ -1,0 +1,29 @@
+/* CSS for scroll animation */
+.resume-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .resume-item.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* CSS for custom animation */
+  @keyframes bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to resume-item.active */
+  .resume-item.active {
+    animation: bounceInLeft 0.5s ease-in-out;
+  }
+  

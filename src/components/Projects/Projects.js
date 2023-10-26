@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Kaddem DevOps Project"
+              description="I'm deeply engaged in the Kaddem DevOps Project as part of my college curriculum at Esprit, gaining hands-on experience in DevOps. We're building a pipeline with Git, Jenkins, Docker, and testing. I've contributed to team formation, Git setup, Jenkins pipeline development, and now I'm focusing on containerization and integration testing. This enriching experience enhances my automation and CI skills. Stay tuned for updates!"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
